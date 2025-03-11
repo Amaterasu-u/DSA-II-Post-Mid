@@ -15,6 +15,7 @@ for(int j=0;j<n2;j++){
 R[n2]=INT_MAX;  
 int i=0, j=0;
 
+
 for(int k=p;k<=r;k++){
     if(L[i]<=R[j]){
         arr[k]=L[i];
